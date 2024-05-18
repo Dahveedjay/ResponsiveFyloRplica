@@ -7,10 +7,10 @@ header {
   margin: 20px;
 }
 .fa-bars{
-  display: block;
+  display: none;
 }
 .fa-xmark{
-  display: block;
+  display: none;
 }
 
 nav {
