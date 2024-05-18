@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 20px;
+}
+.fa-bars{
+  display: block;
+}
+.fa-xmark{
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+nav img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.Hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Hero-section h1 {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.Hero-section p {
+  font-size: 25px;
+  width: 70%;
+}
+
+form {
+  align-items: center;
+  margin: 20px 0;
+}
+.ul-list{
+  position: absolute;
+  top: 70px;
+  left: -2000px;
+  font-size: 20px;
+
+  margin-bottom: 20px;
+  background-color: hsl(170, 45%, 43%);
+  width: 100%;
+  text-align: center;
+  list-style: none;
+
+
+}
+.add-list{
+    transition: all 300ms ease-in-out;
+  left: 0px;
+  color: white;
+  font-size: 18;
+  line-height: 50px;
+}
+
+.Hero-section img {
+  height: auto;
+  max-width: 100%;
+}
+
+.Hero-section input {
+  padding: 10px 30px;
+  border-radius: 3px;
+  border: 1px solid hsl(0, 0%, 75%);
+  margin-right: 15px;
+  height: 40px;
+  
+}
+
+.Hero-section input::placeholder {
+  color: hsl(0, 0%, 75%);
+  font-size: 20px;
+}
+
+.Hero-section button {
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  border: 0;
+ padding-left: 30px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-right: 30px;
+
+  border-radius: 3px;
+
+  
+}
+
+.section2 {
+  background-image: url("images/bg-curve-desktop.svg");
+  margin-top: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.section2 div {
+  margin: 0 3%;
+  width: 100%;
+  
+}
+.productive{
+  font-size: 50px;
+}
+.productive-phrase{
+  font-size: 22px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Secured{
+  font-size: 22px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sect2-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sectionTwo a img {
+  max-width: 100%;
+}
+.right-icon{
+  width: 25px;
+ 
+}
+
+
+.underline {
+  color: hsl(170, 45%, 43%);
+  font-size: 30px;
+}
+
+article {
+  background-color: white;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px grey;
+  width: 50%;
+}
+.comment{
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  padding: 0;
+}
+
+.person img {
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 5px;
+}
+.person h6{
+  font-size: 16px;
+}
+
+span {
+  color: hsl(238, 22%, 44%);
+}
+
+.sectionThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(88, 89, 137, 1);
+  padding: 3rem 0;
+  color: #fff;
+}
+
+.sectionThree div {
+margin: 0 5%;
+}
+.early-access{
+  font-size: 50px;
+}
+.early{
+  font-size: 20px;
+}
+
+
+.sectionThree form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  height: 20px;
+}
+
+
+.sectionThree form button {
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+.Newsletter button{
+  font-size: 20px;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 3rem;
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.img {
+  display: flex;
+}
+
+footer li img {
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+  height: 20px;
+}
+@media (max-width: 1100px){
+  .Hero-section h1{
+    font-size: 35px;
+    
+  }
+  .Hero-section p{
+    font-size: 20px;
+    
+  }
+  header img{
+    width: 100px;
+  }
+  .productive{
+    font-size: 35px;
+  }
+  .productive-phrase{
+    font-size: 20px;
+  }
+  .Secured{
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .Hero-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .section2{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+  }
+  .illustrationTwo img{
+   width: 70%;
+   margin-left: 50px;
+  }
+  .sectionTwo{
+    padding-left: 80px;
+  }
+  .sectionThree{
+    display: flex;
+    flex-direction: column;
+  }
+  .early-access{
+    margin-bottom: 20px;
+  }
+ 
+}
+@media (max-width: 600px) {
+  header ul li{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  background-color: rgb(75, 75, 138);
+  color: white;
+  }
+  .input-control{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .input-control input{
+    width: 80%;
+  }
+  .input-control button{
+    width: 80%;
+    margin-right: 30px;
+  }
+  .productive{
+    font-size: 30px;
+  }
+  .productive-phrase{
+    font-size: 20px;
+  }
+  .early-access{
+    font-size: 30px;
+    text-align: center;
+  }
+  .early{
+    width: 100%;
+    text-align: center;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo{
+    width: 100px;
+  }
+}
+@media (max-width: 550px){
+  footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+  }
+}
+@media (max-width: 350px){
+  .Hero-section h1{
+    font-size: 30px;
+  }
+ 
+  .Hero-section p{
+    font-size: 16px;
+    width: 100%;
+  }
+  .productive{
+    font-size: 30px;
+  }
+  .productive-phrase{
+    font-size: 18px;
+  }
+  .secured{
+    font-size: 18px;
+  }
+  .underline{
+ font-size: 20px;
+  }
+ article{
+  width: 70%;
+ }
+ .Newsletter {
+  display: flex;
+ align-items: center;
+
+ }
+ .early-access{
+  font-size: 28px;
+ }
+ .early{
+  font-size: 16px;
+ }
+ .sectionThree form input{
+  width: 80%;
+ }
+ 
+}
